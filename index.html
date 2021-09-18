@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>Calculadora</title>
+
+      <link rel="stylesheet" href="/css/styles.css">
+      
+</head>
+<body>
+      <div class="app">
+            <header>
+                  <h1>Calculadora</h1>
+            </header>
+
+            <div class="calculadora">
+                  <div class="display">
+                        <input type="text" id="tela" readonly value="0">
+                        <span id="lastEntry">99999</span>
+                  </div>
+                  <div class="buttons">
+                        <button onclick="operation.percentage()">%</button>
+                        <button onclick="limpar.CE()">CE</button>
+                        <button onclick="limpar.C()">C</button>
+                        <button onclick="limpar.last()"> << </button>
+
+                        <button onclick="operation.oneDividedBy()">1/x</button>
+                        <button>x^^2</button>
+                        <button>x^^1/2</button>
+                        <button> / </button>
+
+                        <button class="num" onclick="addNum(7)">7</button>
+                        <button class="num" onclick="addNum(8)">8</button>
+                        <button class="num" onclick="addNum(9)">9</button>
+                        <button>x</button>
+
+                        <button class="num" onclick="addNum(4)">4</button>
+                        <button class="num" onclick="addNum(5)">5</button>
+                        <button class="num" onclick="addNum(6)">6</button>
+                        <button> - </button>
+
+                        <button class="num" onclick="addNum(1)">1</button>
+                        <button class="num" onclick="addNum(2)">2</button>
+                        <button class="num" onclick="addNum(3)">3</button>
+                        <button> + </button>
+
+                        <button onclick="addPosNeg()">+/-</button>
+                        <button class="num" onclick="addNum(0)">0</button>
+                        <button onclick="addDot()">.</button>
+                        <button>=</button>
+                  </div>
+            </div>
+            
+      </div>
+      <script src="js/index.js"></script>
+</body>
+</html>
