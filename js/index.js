@@ -3,6 +3,8 @@ const limpar = {
     document.getElementById("tela").value = 0;
     document.getElementById("lastEntry").innerHTML = "";
     document.getElementById("operation").innerHTML = "";
+
+    operation.sinal = ""
   
   },
 
@@ -103,6 +105,7 @@ const operation = {
     
     document.getElementById("lastEntry").innerHTML = "";
     document.getElementById("operation").innerHTML = "";
+    this.sinal = ""
   },
 
   basics(sinal) {
