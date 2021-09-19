@@ -8,12 +8,16 @@
       <title>Calculadora</title>
 
       <link rel="stylesheet" href="/css/styles.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&family=Rock+Salt&display=swap" rel="stylesheet">
       
 </head>
 <body>
       <div class="app">
             <header>
-                  <h1>Calculadora</h1>
+                  <h1>Calculadora :D</h1>
             </header>
 
             <div class="calculadora">
@@ -24,8 +28,11 @@
                               <p>Operação: </p>
                         </div>
                         
-                        <span id="lastEntry"></span>
-                        <span id="operation"></span>
+                        <div class="entry">
+                              <span id="lastEntry"></span>
+                              <span id="operation"></span>
+                        </div>
+                        
                   </div>
                   <div class="buttons">
                         <button onclick="operation.percentage()">%</button>
@@ -34,8 +41,8 @@
                         <button onclick="limpar.last()"> << </button>
 
                         <button onclick="operation.oneDividedBy()">1/x</button>
-                        <button onclick="operation.squared()">x^^2</button>
-                        <button onclick="operation.squareRooted()">x^^1/2</button>
+                        <button onclick="operation.squared()"> x²</button>
+                        <button onclick="operation.squareRooted()"> √x </button>
                         <button onclick="operation.basics('/')"> / </button>
 
                         <button class="num" onclick="add.num(7)">7</button>
