@@ -5,3 +5,4 @@ It's a Web calculator using only HTML, CSS and Javascript vanilla. <br>
 This project was only a exercise. I was focusing on my CSS and JS training
 
 ## How to access this project 🌐
+https://hinname.github.io/Calculator-Web-JS/
